@@ -47,7 +47,17 @@
                 <div class="col-xs-12 col-sm-6">
                     <div id="secondWindow">
                         <h3><span id="status">White to move</span></h3>
-                       
+                       <div id="moveTable">
+                            <table class="table table-striped table-condensed" id="pgn">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>White</th>
+                                        <th>Black</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
                         <div id="controls">
                             <form class="form-inline">
                                 <button type="button" class="btn btn-default" id="backBtn" onclick="takeBack()";>Take Back</button>
